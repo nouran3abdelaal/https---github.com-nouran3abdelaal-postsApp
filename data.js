@@ -1,7 +1,7 @@
 export const posts =  [
   {
     "id": 1,
-    "liked": false,
+    "liked": true,
     "author": "Al Ahram",
     "description": "Egypt's President Abdel Fattah al-Sisi has met with the head of the European Union's delegation to Egypt, Christian Berger, to discuss ways to boost cooperation between the two sides.",
     "tags": [

@@ -6,7 +6,7 @@ export default function Favorites() {
     <div>
        {/* <NavBar/> */}
        {/* <h1>favorites</h1> */}
-
+<h1>Favourite page </h1>
     </div>
   )
 }
