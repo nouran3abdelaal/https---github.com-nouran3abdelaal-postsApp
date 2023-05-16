@@ -25,3 +25,89 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.icons p{
+  display: inline-block;
+  width: 50%;
+  height: max-content;
+
+  /* height: auto; */
+ /* margin-top: 10px; */
+}
+.icons svg{
+  display: block;
+  width: 100%;
+ margin-top: 20px;
+ text-align: center;
+ color: #1B9C85;
+}
+.icons{
+  background-color: #FFE194;
+
+}
+/* .card{
+background-color: #4C4C6D;
+  
+} */
+.navBar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.comments{
+  font-size: small;
+  font-style: italic;
+  color: rgb(156, 159, 161);
+  text-decoration:none;
+}
+
+.likes svg{
+  display: inline;
+  width: max-content;
+
+}
+/* .likes svg:hover {
+  color: rgb(244, 15, 53);
+} */
+.likes svg:click {
+  color: rgb(165, 64, 81);
+}
+@media only screen and (max-width: 768px) {
+  .navBar {
+    position: sticky;
+    top: 85%;
+    /* top:auto; */
+
+    /* bottom: 0; */
+    /* padding-top: 80%; */
+    /* right: 0; */
+  }}
+
+
+
+ /* .heart {
+  color: red;
+  cursor: pointer;
+}  */
+
+/* /* .heart:hover {
+  color: pink; */
+/* } */ 
+
+/* .heart:click {
+  color: pink;
+} */
+/* svg {
+  fill: black;
+}
+
+svg:hover {
+  fill: red;
+}
+
+svg:click {
+  fill: blue;
+} */
